@@ -7,6 +7,7 @@
 
 #ifndef BOX_ARRAY_
 #define BOX_ARRAY_
+#include <vector>
 #include "../BoxInterface.h"
 
 template<class value_type>
@@ -22,7 +23,7 @@ private:
 
     //Private Helper Methods
     int getIndex(const value_type& target) const;
-    int recursiveHelper(int first, int last, const value_type& target, int& index);
+    void recursiveHelper(int first, int last, const value_type& target, int& index);
     void resize();
 
 public:

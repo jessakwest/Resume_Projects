@@ -9,7 +9,6 @@
 #include <iostream>
 #include <cstddef>
 #include <string>
-#include <vector>
 
 template<class value_type>
 BoxArray<value_type>::BoxArray(): itemCount(0), capacity(DEFAULT_SIZE) { 
@@ -76,11 +75,13 @@ bool BoxArray<value_type>::contains(const value_type& value) const {
 template<class value_type>
 bool BoxArray<value_type>::sortBox() {
     //ADD SORTING TYPE ALGORITHMS
+    return false;
 }
 
 template<class value_type>
 int BoxArray<value_type>::binarySearch(const value_type& value) {
     //ADD RECURSIVE BINARY SEARCH
+    return -1;
 }
 
 template<class value_type>
@@ -113,12 +114,12 @@ int BoxArray<value_type>::getIndex(const value_type& target) const {
 }
 
 template<class value_type>
-int BoxArray<value_type>::recursiveHelper(int first, int last, const value_type target, int& index) {
+void BoxArray<value_type>::recursiveHelper(int first, int last, const value_type& target, int& index) {
     //ADD RECURSIVE HELPER
 }
 
 template<class value_type>
-int BoxArray<value_type>::resize() {
+void BoxArray<value_type>::resize() {
     int newCapacity = capacity * 2;
     value_type* newItems = new value_type[newCapacity];
 

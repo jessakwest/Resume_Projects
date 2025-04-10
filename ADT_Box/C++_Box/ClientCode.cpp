@@ -5,7 +5,7 @@
     data structures (arrays, linked lists) and algorithms (bubble sort, merge sort, binary search)
 */ 
 
-#include "/BoxArray.h";
+#include "Array/BoxArray.h"
 
 int main() {
     std::cout << "\nBox Array Program by Jessa K. West\n";
