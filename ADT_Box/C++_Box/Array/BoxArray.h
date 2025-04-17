@@ -31,7 +31,7 @@ public:
     BoxArray();
     ~BoxArray();
 
-    //Intefface Methods
+    //Interface Methods
     int getSize() const;
     bool isEmpty() const;
     bool add(const value_type& new_value);
@@ -42,9 +42,7 @@ public:
     
     bool sortBox();
     int binarySearch(const value_type& value);
-    std::vector<value_type> toVector() const;
-
-    
+    std::vector<value_type> toVector() const;    
 };
 
 #include "BoxArray.cpp"
