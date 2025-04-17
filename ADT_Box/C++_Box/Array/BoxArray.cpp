@@ -24,9 +24,10 @@ bool BoxArray<value_type>::isEmpty() const { return itemCount == 0; }
 template<class value_type>
 bool BoxArray<value_type>::add(const value_type& new_value) {
     //if array needs to be resized
-    if (!itemCount < capacity)
-        resize();
-
+    if (itemCount >= capacity) {
+         resize();
+    }
+       
     items[itemCount] = new_value;
     itemCount++;
     return true; 
@@ -49,6 +50,7 @@ bool BoxArray<value_type>::remove(const value_type& value) {
 template<class value_type>
 void BoxArray<value_type>::clear() {
     //reset item count, capacity, and items[]
+    delete[] items;
     itemCount = 0;
     capacity = DEFAULT_SIZE;
     items = new value_type[capacity];
