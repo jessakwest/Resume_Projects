@@ -1,5 +1,5 @@
 /*  Program by Jessa K. West
-    Postal Package Program: Client Code
+    Postal Package Program: Shipping Fees Header & Implementation Code
     
      Concepts: OOP design using encapsulation of custom classes & structs; applied Standard Library Utilties (vector, iomanip); user interaction & data validation
 */
