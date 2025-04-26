@@ -3,6 +3,8 @@
     
     Concepts: OOP principles of encapsulation; leverages vectors for dynamic data management
 */ 
+#ifndef STUDENT_
+#define STUDENT_
 
 #include <string>
 #include <iostream>
@@ -40,3 +42,5 @@ class Student {
             std::cout << "Letter Grade: " << letterGrade << std::endl << std::endl;
         }
 };
+
+#endif
