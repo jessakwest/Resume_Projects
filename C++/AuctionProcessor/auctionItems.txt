@@ -1,0 +1,8 @@
+Sclupture 110 600
+Sclupture 117 280
+Sclupture 212 410
+Sclupture 215 525
+Sclupture 221 380
+Sclupture 305 250
+Sclupture 312 500
+Sclupture 322 310
