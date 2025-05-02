@@ -1,5 +1,5 @@
 /*  Program by Jessa K. West
-    Payroll Processor Program: Client Code
+    Payroll Processor Program: Main / Client Code
     
     Concepts:  designed using object-oriented principles; employed vectors for data storage and 
     file I/O techniques to generate readable reports and process data from input text files

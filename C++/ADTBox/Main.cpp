@@ -1,5 +1,5 @@
 /*  Program by Jessa K. West
-    ADT Box Program: Client Code
+    ADT Box Program: Main / Client Code
     
     Concepts: abstraction, encapsulation, polymorphism through data type templates and interfaces,
     data structures (arrays, linked lists) and algorithms (bubble sort, merge sort, binary search)

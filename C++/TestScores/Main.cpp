@@ -1,5 +1,5 @@
 /*  Program by Jessa K. West
-    Test Score Program: Client Code
+    Test Score Program: Main / Client Code
     
     Concepts: OOP principles of encapsulation; leverages vectors for dynamic data management
 */
